@@ -1,0 +1,87 @@
+/* Selector universal*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 1px solid red;
+    font-size: 1.1rem;
+    font-family: 'Comic Neue', cursive;
+
+
+}
+
+/* Header */
+
+header{
+    background-color: blue;
+    box-sizing: content-box;
+    height: 8.5rem;
+    display: block;
+
+}
+
+.image1 {
+    box-sizing: content-box;
+    width: 100%;
+    object-fit: cover;
+    display: flex;
+   
+}
+
+.primertitulo {
+    display: block;
+    position: absolute;
+    top: 0.5rem;
+    left: 0;   
+}
+
+.tituloevento {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.logo {
+
+    position: relative;
+    bottom: 5rem;
+    left: 60rem;
+}
+
+/*Nav y Main*/
+nav,
+main {
+    height: 10rem;
+    display: inline-block;
+    position: relative;
+    margin-top: 2rem;
+}
+
+nav{
+    width: 10rem;
+    vertical-align: top;
+}
+
+main{
+    max-width: 45vw;
+}
+
+nav>a {
+    display: block;
+    padding-bottom: 30px;
+}
+
+a:hover {
+   text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/* About */
+
+p{
+    margin-left: 1rem;
+}

@@ -1,0 +1,102 @@
+/* Selector universal*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.1rem;
+    font-family: 'Comic Neue', cursive;
+
+}
+
+/*Body*/
+body{
+    height: 100%;
+}
+
+/* Header */
+
+header {
+    background-color: blue;
+    box-sizing: content-box;
+    height: 13rem;
+    display: block;
+
+}
+
+.image1 {
+    box-sizing: content-box;
+    height: 8rem;
+    width: 100%;
+    object-fit: cover;
+    display: flex;
+    position: relative;
+    top: 2rem;
+}
+
+.primertitulo {
+    box-sizing: content-box;
+    display: flex;
+    position: absolute;
+    top: 0.1rem;
+    left: 0;
+
+}
+
+.tituloevento {
+    display: block;
+    position: relative;
+    top: 3rem;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+.logo {
+    background-color: brown;
+    height: 14vh;
+    object-fit: cover;
+    position: relative;
+    left: 2rem;
+    top: 4rem;
+}
+
+/*Nav*/
+nav {
+    position: relative;
+    width: 20.5rem;
+    bottom: 12rem;
+    left: 55rem;
+}
+
+nav>a {
+    text-decoration: none;
+    background-color: rgb(50, 50, 226);
+    color: white;
+    display: inline-block;
+}
+
+a {
+    box-sizing: border-box;
+    padding: 0.2rem 1rem;
+    border-bottom: 1rem;
+}
+
+a:hover {
+    background-color: chartreuse;
+}
+
+/*Main*/
+main {
+    background-color: aqua;
+    max-width: 60vw;
+    display: inline-block;
+    position: relative;
+    bottom: 3rem;
+    left: 9rem;
+    margin-top: 2rem;
+}
+
+ul {
+    list-style: none;
+}
+
