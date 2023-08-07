@@ -48,6 +48,7 @@ header {
     background-color: white;
     color: black;
     text-align: center;
+    border: solid 0.1rem black;
 }
 
 .logo {
