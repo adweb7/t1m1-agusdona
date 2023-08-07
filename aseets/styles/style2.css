@@ -16,7 +16,6 @@ body{
 /* Header */
 
 header {
-    background-color: blue;
     box-sizing: content-box;
     height: 13rem;
     display: block;
@@ -81,13 +80,12 @@ a {
     border-bottom: 1rem;
 }
 
-a:hover {
+.actualpag {
     background-color: chartreuse;
 }
 
 /*Main*/
 main {
-    background-color: aqua;
     max-width: 60vw;
     display: inline-block;
     position: relative;
