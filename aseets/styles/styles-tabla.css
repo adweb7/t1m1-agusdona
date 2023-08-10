@@ -55,8 +55,7 @@ nav a{
 
 h2{
     /* display: flex;
-    align-items:flex-start;
-    text-align: center;*/
+    align-items:flex-start;*/
     padding-bottom: 4rem; 
     text-align: center;
 }
@@ -101,7 +100,7 @@ h4{
 
 #prules{
     padding-bottom: 3rem;
-    margin-top:-3.5rem ;
+     margin-top:-3.5rem ;
 }
 .psport{
     margin-left: 1rem;
@@ -117,7 +116,7 @@ h4{
 
 /*PAGINA GAME*/
 
-table, tr, th, td{
+ tr, th, td{
     /* border: 1px solid black; */
     /* border-collapse: collapse; */
     padding: 0.5rem;
@@ -158,6 +157,12 @@ span{
 }
 .phone-game{
     padding-left: 6rem;
+}
+
+caption{
+   margin-bottom: 3rem;
+   text-align: left;
+   
 }
 
 
