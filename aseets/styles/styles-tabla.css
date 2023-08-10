@@ -1,0 +1,171 @@
+/*SELECTOR UNIVERSAL*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*HEADER DE LAS TODAS LAS PAGINAS*/
+
+header{
+    background-color: rgb(12, 109, 109);
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+main{
+    background-color: beige;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.logo{
+    height: 12.5vh;
+    order: 0;
+}
+
+h1{
+    order: 1;
+    flex-grow: 4;
+    font-size: 1.5rem;
+    color: white;
+}
+
+nav{
+    order: 2;
+}
+nav a{
+    text-decoration: none;
+    background-color: rgb(11, 151, 151);
+    color: white;
+    border-radius: 10px;
+}
+
+.actualpag {
+    background-color: black;
+}
+
+h2{
+    /* display: flex;
+    align-items:flex-start;
+    text-align: center;*/
+    padding-bottom: 4rem; 
+    text-align: center;
+}
+
+.hmain{
+    text-align: center;
+}
+
+/*PAGINA ABOUT y RULES*/
+div{
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    justify-content: space-between;
+}
+
+
+section{
+    background-color: rgb(11, 151, 151);
+    border-radius: 40px;
+    width: 40%;
+    height: 60%;
+    padding: 0.5rem;
+    margin: 1.5rem;
+    
+}
+
+.sectionrules{
+    margin: 0.5rem;
+}
+
+li{
+   
+    margin: 1.5rem;
+}
+
+h4{
+    font-weight: bold;
+}
+
+/*PAGINA RULES*/
+
+#prules{
+    padding-bottom: 3rem;
+    margin-top:-3.5rem ;
+}
+.psport{
+    margin-left: 1rem;
+}
+
+.li-all-play, .eventos-inicio{
+    list-style: none;
+}
+
+.ol-fields{
+    list-style: lower-alpha;
+}
+
+/*PAGINA GAME*/
+
+table, tr, th, td{
+    /* border: 1px solid black; */
+    /* border-collapse: collapse; */
+    padding: 0.5rem;
+    text-align: center;
+} 
+
+.fechas{
+    width: 5rem;
+    text-align: center;
+}
+
+.grupos{
+    width: 8rem;
+}
+
+.ubicacion{
+    width: 10rem;
+}
+
+.horarios{
+    width: 10rem;
+}
+
+.datos-extra{
+    padding: 2rem;
+    margin-left: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+span{
+    font-weight: bold; 
+}
+
+.contacto-game{
+    padding-bottom: 2rem;
+    margin-right: 10rem;
+}
+.phone-game{
+    padding-left: 6rem;
+}
+
+
+
+/*FOOTER DE TODAS LAS PAGINAS*/
+
+/* footer{
+    background-color: rgb(12, 109, 109);
+    min-height: 5vh;
+} */
+

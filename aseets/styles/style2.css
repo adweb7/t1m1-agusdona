@@ -52,7 +52,6 @@ header {
 }
 
 .logo {
-    background-color: brown;
     height: 14vh;
     object-fit: cover;
     position: relative;
