@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/Logo-Mighty-ducks-01.ico" type="image/x-icon">
+    <!--<link rel="stylesheet" href="../styles/style1.css"> -->
+    <!-- <link rel="stylesheet" href="../styles/style2.css"> -->
+    <link rel="stylesheet" href="../styles/styles-tabla.css">
+    <title>Rules</title>
+</head>
+
+<body>
+    <header>
+        <!-- <img class="image1" src="../img/design1_image1.jpg" height="120" alt="image1"> -->
+        <img class="logo" src="../img/LogoMightyducks-01.png" alt="logo">
+        <nav>
+            <a href="../../index.html">Home</a>
+            <a href="./about.html">About MDHL</a>
+            <a href="../pages/contact.html">Contact</a>
+            <a href="./game-information.html">Game Information</a>
+            <a href="./rules.html">Rules</a>
+            <a class="actualpag" href="#">Registration</a>
+        </nav>
+        <h1>Mighty Ducks Hockey League</h1>
+    </header>
+
+    <main>
+        <div>
+            <form action="./show_data.html" method="get">
+                <label for="name">Player's First Name:</label>
+                <input type="text" id="name" name="nombre">
+                <label for="lastname">Last Name:</label>
+                <input type="text" id="lastname" name="apellido">
+                <label for="address">Sreet Address:</label>
+                <input type="text" id="address" name="direccion">
+                <label for="city">City:</label>
+                <input type="text" id="city" name="ciudad">
+                <label for="code">Zip Code:</label>
+                <input type="text" id="code" name="codigo postal">
+                <label for="birthday">Birth Date(mm/dd/yyyy):</label>
+                <input type="date" id="birthday" name="cumpleaños">
+                Gender:
+                <label for="gender">Female</label>
+                <input type="checkbox" id="gender" name="genero" value="Female">
+                <label for="gender">Male:</label>
+                <input type="checkbox" id="gender" name="genero" value="Male">
+                Grade:
+                <label for="grade">Pre-School</label>
+                <input type="checkbox" id="grade" name="grado" value="Pre School">
+                <label for="grade">1s</label>
+                <input type="checkbox" id="grade" name="grado" value="1st">
+                <label for="grade">2nd</label>
+                <input type="checkbox" id="grade" name="grado" value="2nd">
+                <label for="grade">3rd</label>
+                <input type="checkbox" id="grade" name="grado" value="3rd">
+                <label for="grade">4th</label>
+                <input type="checkbox" id="grade" name="grado" value="4th">
+                <label for="grade">5th</label>
+                <input type="checkbox" id="grade" name="grado" value="5th">
+            </form>
+        </div>
+        <!-- <div>
+            <form action="./show_data.html" method="get">
+                <h3>Which elementary school do you live near?</h3>
+                <h4>Closest School</h4>
+                <label for="school">AJ Katzenmaier</label>
+                <input type="checkbox" id="school" name="escuelacercana" value="AJ Katzenmaier">
+                <label for="school">Greenbay</label>
+                <input type="checkbox" id="school" name="escuelacercana" value="Greenbay">
+                <label for="school">Howard A Yeager</label>
+                <input type="checkbox" id="school" name="escuelacercana" value="Howard A Yeager">
+                <label for="school">Marjorie P Hart</label>
+                <input type="checkbox" id="school" name="escuelacercana" value="Marjorie P Hart">
+                <label for="school">North Elementary</label>
+                <input type="checkbox" id="school" name="escuelacercana" value="North Elementary">
+                <label for="school">South Elementary</label>
+                <input type="checkbox" id="school" name="escuelacercana" value="South Elementary">
+            </form>
+        </div>
+        <div>
+            <form action="./show_data.html" method="get">
+                <h3>What position(s) do you normally play? (check all that apply)</h3>
+                <label for="position">Forward</label>
+                <input type="checkbox" id="position" name="posicionjuego" value="Forward">
+                <label for="position">Defense</label>
+                <input type="checkbox" id="position" name="posicionjuego" value="Defense">
+                <label for="position">Midfield</label>
+                <input type="checkbox" id="position" name="posicionjuego" value="Midfield">
+                <label for="position">Goalkeeper</label>
+                <input type="checkbox" id="position" name="posicionjuego" value="Goalkeeper">
+            </form>
+        </div>
+        <div>
+            <form action="./show_data.html" method="get">
+                <h3>Uniform Size</h3>
+                <label for="size-uniform">Youth Smal</label>
+                <input type="checkbox" id="size-uniform" name="talleuniforme" value="Youth Smal">
+                <label for="size-uniform">Youth Medium</label>
+                <input type="checkbox" id="size-uniform" name="talleuniforme" value="Youth Medium">
+                <label for="size-uniform">Youth Large</label>
+                <input type="checkbox" id="size-uniform" name="talleuniforme" value="Youth Large">
+                <label for="size-uniform">Small</label>
+                <input type="checkbox" id="size-uniform" name="talleuniforme" value="Small">
+                <label for="size-uniform">Medium</label>
+                <input type="checkbox" id="size-uniform" name="talleuniforme" value="Medium">
+                <label for="size-uniform">Large</label>
+                <input type="checkbox" id="size-uniform" name="talleuniforme" value="Large">
+                <label for="size-uniform">Extra-Large</label>
+                <input type="checkbox" id="size-uniform" name="talleuniforme" value="Extra Large">
+            </form>
+        </div>
+        <div>
+            <h4>
+                <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all
+                    the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical
+                    injury associated with hockey and in consideration for the "League" accepting the registrant for its
+                    hockey programs and activities, hereby release, discharge, and/or otherwise indemnify MDHL, their
+                    employees and associated personnel and volunteers, including the facilities usd for practices and
+                    games, against any claim by or on behalf of the registrant as a result of the registrant's
+                    participation in the programand/orbeing transported to or from MDHL sponsored activities, which
+                    transportation.
+                    By signing below, I herebyagree and authorizethe above. In addition, by signing below, lalso
+                    acknowledge that I have read the cancellation policy and agree to its terms.</p>
+            </h4>
+        </div>
+        <div>
+            <form action="./show_data.html" method="get">
+                <label for="firma">Parent/GuardianSignature:</label>
+                <input type="text" id="firma" name="firmatutor">
+                <label for="date">Date</label>
+                <input type="date" id="date" name="fechafirma">
+            </form>
+
+            
+        </div> -->
+        <input type="submit" value="Enviar">
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+
+</html>

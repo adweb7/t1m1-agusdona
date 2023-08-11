@@ -166,6 +166,41 @@ caption{
    
 }
 
+.maps{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+/*PAGINA REGISTRATION*/
+
+form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;    
+    
+}
+
+/* label{
+    width: 11.5%;
+}
+
+input{
+    padding-right: 25rem;
+    width: 40%;
+} */
+
+
+
+/*SHOW DATA*/
+
+.tabla-data{
+    padding: 6rem;
+    
+}
+
 
 
 /*FOOTER DE TODAS LAS PAGINAS*/
