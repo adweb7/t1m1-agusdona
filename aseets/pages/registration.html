@@ -27,100 +27,91 @@
     </header>
 
     <main>
-        <div>
+        <h2 id="h2todos">REGISTRATION FORM</h2>
+        <div class="div-form">
             <form action="./show_data.html" method="get">
-                <label for="name">Player's First Name:</label>
-                <input type="text" id="name" name="Nombre">
-                <label for="lastname">Last Name:</label>
-                <input type="text" id="lastname" name="Apellido">
-                <label for="address">Sreet Address:</label>
-                <input type="text" id="address" name="Direccion">
-                <label for="city">City:</label>
-                <input type="text" id="city" name="Ciudad">
-                <label for="code">Zip Code:</label>
-                <input type="text" id="code" name="Codigo postal">
-                <label for="birthday">Birth Date(mm/dd/yyyy):</label>
-                <input type="date" id="birthday" name="Nacimiento">
-                Gender:
-                <label for="gender">Female</label>
-                <input type="checkbox" id="gender" name="Genero" value="Female">
-                <label for="gender">Male:</label>
-                <input type="checkbox" id="gender" name="Genero" value="Male">
-                Grade:
-                <label for="grade">Pre-School</label>
-                <input type="checkbox" id="grade" name="Grado" value="Pre School">
-                <label for="grade">1s</label>
-                <input type="checkbox" id="grade" name="Nro Grado" value="1st">
-                <label for="grade">2nd</label>
-                <input type="checkbox" id="grade" name="Nro Grado" value="2nd">
-                <label for="grade">3rd</label>
-                <input type="checkbox" id="grade" name="Nro Grado" value="3rd">
-                <label for="grade">4th</label>
-                <input type="checkbox" id="grade" name="Nro Grado" value="4th">
-                <label for="grade">5th</label>
-                <input type="checkbox" id="grade" name="Nro Grado" value="5th">
-           
-                <input type="submit" value="Enviar">
-            </form>
-        </div>
-        <div>
-            <form action="./show_data.html" method="get">
-                <h3>Which elementary school do you live near?</h3>
-                <h4>Closest School</h4>
-                <label for="school">AJ Katzenmaier</label>
-                <input type="checkbox" id="school" name="EscuelaCercana" value="AJ Katzenmaier">
-                <label for="school">Greenbay</label>
-                <input type="checkbox" id="school" name="EscuelaCercana" value="Greenbay">
-                <label for="school">Howard A Yeager</label>
-                <input type="checkbox" id="school" name="EscuelaCercana" value="Howard A Yeager">
-                <label for="school">Marjorie P Hart</label>
-                <input type="checkbox" id="school" name="EscuelaCercana" value="Marjorie P Hart">
-                <label for="school">North Elementary</label>
-                <input type="checkbox" id="school" name="EscuelaCercana" value="North Elementary">
-                <label for="school">South Elementary</label>
-                <input type="checkbox" id="school" name="escuelacercana" value="South Elementary">
-           
-                <input type="submit" value="Enviar">
-            </form>
-        </div>
-        <div>
-            <form action="./show_data.html" method="get">
-                <h3>What position(s) do you normally play? (check all that apply)</h3>
-                <label for="position">Forward</label>
-                <input type="checkbox" id="position" name="Posicion" value="Forward">
-                <label for="position">Defense</label>
-                <input type="checkbox" id="position" name="Posicion" value="Defense">
-                <label for="position">Midfield</label>
-                <input type="checkbox" id="position" name="Posicion" value="Midfield">
-                <label for="position">Goalkeeper</label>
-                <input type="checkbox" id="position" name="Posicion" value="Goalkeeper">
-            
-            <input type="submit" value="Enviar">
-            </form>
-        </div>
-        <div>
-            <form action="./show_data.html" method="get">
-                <h3>Uniform Size</h3>
-                <label for="size-uniform">Youth Smal</label>
-                <input type="checkbox" id="size-uniform" name="Talle" value="Youth Smal">
-                <label for="size-uniform">Youth Medium</label>
-                <input type="checkbox" id="size-uniform" name="Talle" value="Youth Medium">
-                <label for="size-uniform">Youth Large</label>
-                <input type="checkbox" id="size-uniform" name="Talle" value="Youth Large">
-                <label for="size-uniform">Small</label>
-                <input type="checkbox" id="size-uniform" name="Talle" value="Small">
-                <label for="size-uniform">Medium</label>
-                <input type="checkbox" id="size-uniform" name="Talle" value="Medium">
-                <label for="size-uniform">Large</label>
-                <input type="checkbox" id="size-uniform" name="Talle" value="Large">
-                <label for="size-uniform">Extra-Large</label>
-                <input type="checkbox" id="size-uniform" name="Talle" value="Extra Large">
-                
-                <input type="submit" value="Enviar">
-            </form>
-        </div>
-        <div>
-            <h4>
+                <span>
+                    <label for="name">Player's First Name:</label>
+                    <input type="text" id="name" name="Nombre">
+                    <label for="lastname">Last Name:</label>
+                    <input type="text" id="lastname" name="Apellido">
+                </span>
+                <span>
+                    <label for="address">Sreet Address:</label>
+                    <input type="text" id="address" name="Direccion">
+                    <label for="city">City:</label>
+                    <input type="text" id="city" name="Ciudad">
+                </span>
+                <span>
+                    <label for="code">Zip Code:</label>
+                    <input type="text" id="code" name="Codigo postal">
+                    <label for="birthday">Birth Date(mm/dd/yyyy):</label>
+                    <input type="date" id="birthday" name="Nacimiento">
+                </span>
+
+
+                <span>Gender:
+                    <label for="fem">Female</label>
+                    <input type="radio" id="fem" name="Genero" value="Female">
+                    <label for="masc">Male:</label>
+                    <input type="radio" id="masc" name="Genero" value="Male">
+
+                </span>
+
+                <span>Grade:</span>
+                <label for="preschool">Pre-School</label>
+                <input type="checkbox" id="preschool" name="Grado" value="Pre School">
+                <label for="grado1">1s</label>
+                <input type="checkbox" id="grado1" name="Nro Grado" value="1st">
+                <label for="grado2">2nd</label>
+                <input type="checkbox" id="grado2" name="Nro Grado" value="2nd">
+                <label for="grado3">3rd</label>
+                <input type="checkbox" id="grado3" name="Nro Grado" value="3rd">
+                <label for="grado4">4th</label>
+                <input type="checkbox" id="grado4" name="Nro Grado" value="4th">
+                <label for="grado5">5th</label>
+                <input type="checkbox" id="grado5" name="Nro Grado" value="5th">
+
+                <span>Which elementary school do you live near?</span>
+                <span>Closest School</span>
+                <label for="school1">AJ Katzenmaier</label>
+                <input type="checkbox" id="school1" name="EscuelaCercana" value="AJ Katzenmaier">
+                <label for="school2">Greenbay</label>
+                <input type="checkbox" id="school2" name="EscuelaCercana" value="Greenbay">
+                <label for="school3">Howard A Yeager</label>
+                <input type="checkbox" id="school3" name="EscuelaCercana" value="Howard A Yeager">
+                <label for="school4">Marjorie P Hart</label>
+                <input type="checkbox" id="school4" name="EscuelaCercana" value="Marjorie P Hart">
+                <label for="school5">North Elementary</label>
+                <input type="checkbox" id="school5" name="EscuelaCercana" value="North Elementary">
+                <label for="school6">South Elementary</label>
+                <input type="checkbox" id="school6" name="escuelacercana" value="South Elementary">
+                <span>What position(s) do you normally play? (check all that apply)</span>
+                <label for="position1">Forward</label>
+                <input type="checkbox" id="position1" name="Posicion" value="Forward">
+                <label for="position2">Defense</label>
+                <input type="checkbox" id="position2" name="Posicion" value="Defense">
+                <label for="position3">Midfield</label>
+                <input type="checkbox" id="position3" name="Posicion" value="Midfield">
+                <label for="position4">Goalkeeper</label>
+                <input type="checkbox" id="position4" name="Posicion" value="Goalkeeper">
+
+                <span>Uniform Size</span>
+                <label for="size-uniform1">Youth Smal</label>
+                <input type="checkbox" id="size-uniform1" name="Talle" value="Youth Smal">
+                <label for="size-uniform2">Youth Medium</label>
+                <input type="checkbox" id="size-uniform2" name="Talle" value="Youth Medium">
+                <label for="size-uniform3">Youth Large</label>
+                <input type="checkbox" id="size-uniform3" name="Talle" value="Youth Large">
+                <label for="size-uniform4">Small</label>
+                <input type="checkbox" id="size-uniform4" name="Talle" value="Small">
+                <label for="size-uniform5">Medium</label>
+                <input type="checkbox" id="size-uniform5" name="Talle" value="Medium">
+                <label for="size-uniform6">Large</label>
+                <input type="checkbox" id="size-uniform6" name="Talle" value="Large">
+                <label for="size-uniform7">Extra-Large</label>
+                <input type="checkbox" id="size-uniform7" name="Talle" value="Extra Large">
+
                 <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all
                     the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical
                     injury associated with hockey and in consideration for the "League" accepting the registrant for its
@@ -131,21 +122,19 @@
                     transportation.
                     By signing below, I herebyagree and authorizethe above. In addition, by signing below, lalso
                     acknowledge that I have read the cancellation policy and agree to its terms.</p>
-            </h4>
-        </div>
-        <div>
-            <form action="./show_data.html" method="get">
-                <label for="firma">Parent/GuardianSignature:</label>
-                <input type="text" id="firma" name="Firma">
-                <label for="date">Date</label>
-                <input type="date" id="date" name="Fecha">
 
-                <input type="submit" value="Enviar">
+                <labe for="firma">Parent/GuardianSignature:</label>
+                    <input type="text" id="firma" name="Firma">
+                    <label for="datefirma">Date</label>
+                    <input type="date" id="datefirma" name="Fecha">
+
+
+                    <input id="enviar" type="submit" value="Enviar">
+
+
             </form>
-
-            
         </div>
-        
+
     </main>
 
     <footer>
