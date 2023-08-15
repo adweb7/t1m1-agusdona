@@ -13,7 +13,6 @@
 
 <body>
     <header>
-        <!-- <img class="image1" src="../img/design1_image1.jpg" height="120" alt="image1"> -->
         <img class="logo" src="../img/LogoMightyducks-01.png" alt="logo">
         <nav>
             <a href="../../index.html">Home</a>
@@ -58,34 +57,27 @@
 
                 </span>
 
-                <span>Grade:</span>
-                <label for="preschool">Pre-School</label>
-                <input type="checkbox" id="preschool" name="Grado" value="Pre School">
-                <label for="grado1">1s</label>
-                <input type="checkbox" id="grado1" name="Nro Grado" value="1st">
-                <label for="grado2">2nd</label>
-                <input type="checkbox" id="grado2" name="Nro Grado" value="2nd">
-                <label for="grado3">3rd</label>
-                <input type="checkbox" id="grado3" name="Nro Grado" value="3rd">
-                <label for="grado4">4th</label>
-                <input type="checkbox" id="grado4" name="Nro Grado" value="4th">
-                <label for="grado5">5th</label>
-                <input type="checkbox" id="grado5" name="Nro Grado" value="5th">
+               <span><label for="Grado">Grade:</label></span> 
+                <select name="Grado" id="grado">
+                    <option value="Pre-School">Pre-School</option>
+                    <option value="1s">1s</option>
+                    <option value="2nd">2nd</option>
+                    <option value="3rd">3rd</option>
+                    <option value="4th">4th</option>
+                    <option value="5th">5th</option>
+                </select>
+                
 
-                <span>Which elementary school do you live near?</span>
-                <span>Closest School</span>
-                <label for="school1">AJ Katzenmaier</label>
-                <input type="checkbox" id="school1" name="EscuelaCercana" value="AJ Katzenmaier">
-                <label for="school2">Greenbay</label>
-                <input type="checkbox" id="school2" name="EscuelaCercana" value="Greenbay">
-                <label for="school3">Howard A Yeager</label>
-                <input type="checkbox" id="school3" name="EscuelaCercana" value="Howard A Yeager">
-                <label for="school4">Marjorie P Hart</label>
-                <input type="checkbox" id="school4" name="EscuelaCercana" value="Marjorie P Hart">
-                <label for="school5">North Elementary</label>
-                <input type="checkbox" id="school5" name="EscuelaCercana" value="North Elementary">
-                <label for="school6">South Elementary</label>
-                <input type="checkbox" id="school6" name="escuelacercana" value="South Elementary">
+                <span> <label for="escuelaCercana">Which elementary school do you live near? Closest School</label></span>   
+                <select name="escuelaCercana" id="escuelaCercana">
+                    <option value="AJ Katzenmaier">AJ Katzenmaier</option>
+                    <option value="Greenbay">Greenbay</option>
+                    <option value="Howard A Yeager">Howard A Yeager</option>
+                    <option value="Marjorie P Hart">Marjorie P Hart</option>
+                    <option value="North Elementary">North Elementary</option>
+                    <option value="South Elementary">South Elementary</option>
+                </select>
+
                 <span>What position(s) do you normally play? (check all that apply)</span>
                 <label for="position1">Forward</label>
                 <input type="checkbox" id="position1" name="Posicion" value="Forward">
@@ -96,8 +88,18 @@
                 <label for="position4">Goalkeeper</label>
                 <input type="checkbox" id="position4" name="Posicion" value="Goalkeeper">
 
-                <span>Uniform Size</span>
-                <label for="size-uniform1">Youth Smal</label>
+                
+                <span><label for="Uniforme">Uniform Size</label></span>
+                <select name="Uniforme" id="Uniforme">
+                    <option value="Youth Smal">Youth Smal</option>
+                    <option value="Youth Medium">Youth Medium</option>
+                    <option value="Youth Large">Youth Large</option>
+                    <option value="Small">Small</option>
+                    <option value="Large">Large</option>
+                    <option value="Extra-Large">Extra-Large</option>
+                </select>
+
+                <!-- <label for="size-uniform1">Youth Smal</label>
                 <input type="checkbox" id="size-uniform1" name="Talle" value="Youth Smal">
                 <label for="size-uniform2">Youth Medium</label>
                 <input type="checkbox" id="size-uniform2" name="Talle" value="Youth Medium">
@@ -110,7 +112,7 @@
                 <label for="size-uniform6">Large</label>
                 <input type="checkbox" id="size-uniform6" name="Talle" value="Large">
                 <label for="size-uniform7">Extra-Large</label>
-                <input type="checkbox" id="size-uniform7" name="Talle" value="Extra Large">
+                <input type="checkbox" id="size-uniform7" name="Talle" value="Extra Large"> -->
 
                 <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all
                     the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical
@@ -123,7 +125,7 @@
                     By signing below, I herebyagree and authorizethe above. In addition, by signing below, lalso
                     acknowledge that I have read the cancellation policy and agree to its terms.</p>
 
-                <labe for="firma">Parent/GuardianSignature:</label>
+                <label for="firma">Parent/GuardianSignature:</label>
                     <input type="text" id="firma" name="Firma">
                     <label for="datefirma">Date</label>
                     <input type="date" id="datefirma" name="Fecha">
@@ -137,9 +139,7 @@
 
     </main>
 
-    <footer>
-
-    </footer>
+    
 </body>
 
 </html>
